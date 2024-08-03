@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-03T00:05:29.886190" rpa="false" schemaversion="5">
+<suite id="s1" name="Radio checkboxes" source="C:\Users\Madhuri.Jasti\PycharmProjects\RobatFramework\TestCases\Radio_checkboxes.robot">
+<test id="s1-t1" name="TestCheckboxes" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-03T00:05:30.168157" level="INFO">Opening browser 'chrome' to base url 'https://fs2.formsite.com/meherpavan/form2/index.html?1537702596407'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-03T00:05:30.167242" elapsed="5.584264"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-03T00:05:35.752604" elapsed="0.044442"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>3seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2024-07-03T00:05:35.798030" elapsed="0.001014"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-07-03T00:05:35.800124" level="INFO">Selecting checkbox '//input[@id='RESULT_CheckBox-8_0']'.</msg>
+<msg time="2024-07-03T00:05:52.108414" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-20.png"&gt;&lt;img src="selenium-screenshot-20.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-07-03T00:05:52.108414" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input type="checkbox" name="RESULT_CheckBox-8" class="multiple_choice" id="RESULT_CheckBox-8_0" value="CheckBox-0"&gt; is not clickable at point (351, 205). Other element would receive the click: &lt;label for="RESULT_CheckBox-8_0"&gt;...&lt;/label&gt;
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF77669EEA2+31554]
+	(No symbol) [0x00007FF776617ED9]
+	(No symbol) [0x00007FF7764D872A]
+	(No symbol) [0x00007FF77653012E]
+	(No symbol) [0x00007FF77652DAF2]
+	(No symbol) [0x00007FF77652AF8B]
+	(No symbol) [0x00007FF77652A156]
+	(No symbol) [0x00007FF77651C151]
+	(No symbol) [0x00007FF77654D02A]
+	(No symbol) [0x00007FF77651BA76]
+	(No symbol) [0x00007FF77654D240]
+	(No symbol) [0x00007FF77656C977]
+	(No symbol) [0x00007FF77654CDD3]
+	(No symbol) [0x00007FF77651A33B]
+	(No symbol) [0x00007FF77651AED1]
+	GetHandleVerifier [0x00007FF7769A8B1D+3217341]
+	GetHandleVerifier [0x00007FF7769F5AE3+3532675]
+	GetHandleVerifier [0x00007FF7769EB0E0+3489152]
+	GetHandleVerifier [0x00007FF77674E776+750614]
+	(No symbol) [0x00007FF77662375F]
+	(No symbol) [0x00007FF77661EB14]
+	(No symbol) [0x00007FF77661ECA2]
+	(No symbol) [0x00007FF77660E16F]
+	BaseThreadInitThunk [0x00007FF9F9DA7344+20]
+	RtlUserThreadStart [0x00007FF9FAF7CC91+33]
+</msg>
+<arg>//input[@id='RESULT_CheckBox-8_0']</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="FAIL" start="2024-07-03T00:05:35.800124" elapsed="16.311821">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input type="checkbox" name="RESULT_CheckBox-8" class="multiple_choice" id="RESULT_CheckBox-8_0" value="CheckBox-0"&gt; is not clickable at point (351, 205). Other element would receive the click: &lt;label for="RESULT_CheckBox-8_0"&gt;...&lt;/label&gt;
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF77669EEA2+31554]
+	(No symbol) [0x00007FF776617ED9]
+	(No symbol) [0x00007FF7764D872A]
+	(No symbol) [0x00007FF77653012E]
+	(No symbol) [0x00007FF77652DAF2]
+	(No symbol) [0x00007FF77652AF8B]
+	(No symbol) [0x00007FF77652A156]
+	(No symbol) [0x00007FF77651C151]
+	(No symbol) [0x00007FF77654D02A]
+	(No symbol) [0x00007FF77651BA76]
+	(No symbol) [0x00007FF77654D240]
+	(No symbol) [0x00007FF77656C977]
+	(No symbol) [0x00007FF77654CDD3]
+	(No symbol) [0x00007FF77651A33B]
+	(No symbol) [0x00007FF77651AED1]
+	GetHandleVerifier [0x00007FF7769A8B1D+3217341]
+	GetHandleVerifier [0x00007FF7769F5AE3+3532675]
+	GetHandleVerifier [0x00007FF7769EB0E0+3489152]
+	GetHandleVerifier [0x00007FF77674E776+750614]
+	(No symbol) [0x00007FF77662375F]
+	(No symbol) [0x00007FF77661EB14]
+	(No symbol) [0x00007FF77661ECA2]
+	(No symbol) [0x00007FF77660E16F]
+	BaseThreadInitThunk [0x00007FF9F9DA7344+20]
+	RtlUserThreadStart [0x00007FF9FAF7CC91+33]
+</status>
+</kw>
+<status status="FAIL" start="2024-07-03T00:05:30.166165" elapsed="21.946773">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input type="checkbox" name="RESULT_CheckBox-8" class="multiple_choice" id="RESULT_CheckBox-8_0" value="CheckBox-0"&gt; is not clickable at point (351, 205). Other element would receive the click: &lt;label for="RESULT_CheckBox-8_0"&gt;...&lt;/label&gt;
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF77669EEA2+31554]
+	(No symbol) [0x00007FF776617ED9]
+	(No symbol) [0x00007FF7764D872A]
+	(No symbol) [0x00007FF77653012E]
+	(No symbol) [0x00007FF77652DAF2]
+	(No symbol) [0x00007FF77652AF8B]
+	(No symbol) [0x00007FF77652A156]
+	(No symbol) [0x00007FF77651C151]
+	(No symbol) [0x00007FF77654D02A]
+	(No symbol) [0x00007FF77651BA76]
+	(No symbol) [0x00007FF77654D240]
+	(No symbol) [0x00007FF77656C977]
+	(No symbol) [0x00007FF77654CDD3]
+	(No symbol) [0x00007FF77651A33B]
+	(No symbol) [0x00007FF77651AED1]
+	GetHandleVerifier [0x00007FF7769A8B1D+3217341]
+	GetHandleVerifier [0x00007FF7769F5AE3+3532675]
+	GetHandleVerifier [0x00007FF7769EB0E0+3489152]
+	GetHandleVerifier [0x00007FF77674E776+750614]
+	(No symbol) [0x00007FF77662375F]
+	(No symbol) [0x00007FF77661EB14]
+	(No symbol) [0x00007FF77661ECA2]
+	(No symbol) [0x00007FF77660E16F]
+	BaseThreadInitThunk [0x00007FF9F9DA7344+20]
+	RtlUserThreadStart [0x00007FF9FAF7CC91+33]
+</status>
+</test>
+<status status="FAIL" start="2024-07-03T00:05:29.888548" elapsed="22.226384"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Radio checkboxes">Radio checkboxes</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
